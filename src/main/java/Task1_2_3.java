@@ -1,7 +1,7 @@
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class GBhomeWork3 {
+public class Task1_2_3 {
 
 
     public static void main (String[] args){
@@ -59,7 +59,7 @@ public class GBhomeWork3 {
     private static void arrayTask4(int i) {
         int[] [] arrayTask4 = new int [i] [i];
         for (int j = 0; j < i; j++) {
-            Array.setInt(arrayTask4,i,j)
+            Array.setInt(arrayTask4,i,j);
         }
 
     }
