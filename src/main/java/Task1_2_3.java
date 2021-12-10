@@ -5,13 +5,13 @@ public class Task1_2_3 {
 
 
     public static void main (String[] args){
-        arrayTask1(10);
+        arrayTask1_(10);
         array100NumTask2();
         arrayTask3();
         arrayTask4(10);
 
     }
-    public static void arrayTask1(int b) {
+    public static void arrayTask1_(int b) {
         short[] shortArray = new short[b];
         for (int i = 0; i < b; i++) {
             Array.setShort(shortArray, i, (short) (Math.random() * 2));
