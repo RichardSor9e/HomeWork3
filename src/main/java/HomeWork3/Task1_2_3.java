@@ -1,17 +1,19 @@
+package HomeWork3;
+
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class GBhomeWork3 {
+public class Task1_2_3 {
 
 
     public static void main (String[] args){
-        arrayTask1(10);
+        arrayTask1_(10);
         array100NumTask2();
         arrayTask3();
         arrayTask4(10);
 
     }
-    public static void arrayTask1(int b) {
+    public static void arrayTask1_(int b) {
         short[] shortArray = new short[b];
         for (int i = 0; i < b; i++) {
             Array.setShort(shortArray, i, (short) (Math.random() * 2));
@@ -59,7 +61,7 @@ public class GBhomeWork3 {
     private static void arrayTask4(int i) {
         int[] [] arrayTask4 = new int [i] [i];
         for (int j = 0; j < i; j++) {
-            Array.setInt(arrayTask4,i,j)
+            Array.setInt(arrayTask4,i,j);
         }
 
     }
